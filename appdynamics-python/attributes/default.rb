@@ -1,0 +1,6 @@
+default['appdynamics']['controller']['host'] = "172.16.10.81"
+default['appdynamics']['controller']['port'] = "8090"
+default['appdynamics']['application'] = "App123"
+default['appdynamics']['tier'] = "Tier123"
+default['appdynamics']['node'] = "Node123"
+default['appdynamics']['configfile'] = "/etc/appdynamics.cfg"

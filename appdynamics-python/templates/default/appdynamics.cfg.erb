@@ -1,0 +1,8 @@
+[agent]
+app = <%= node['appdynamics']['application'] %>
+tier = <%= node['appdynamics']['tier'] %>
+node = <%= node['appdynamics']['node'] %>
+
+[controller]
+host = <%= node['appdynamics']['controller']['host'] %>
+port = <%= node['appdynamics']['controller']['port'] %>
